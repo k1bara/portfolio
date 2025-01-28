@@ -1,0 +1,257 @@
+@media (max-width: 1200px){
+    .promo__wrapper{
+        align-items: center;
+    }
+    .advantages__descr{
+        font-size: 15px;
+    }
+    .title_left{
+        text-align: center;
+    }
+    .consultation__descr{
+        text-align: center;
+        br{
+            display: none;
+        }
+    }
+    .feed-form{
+        margin: 0 auto;
+        margin-top: 36px;
+    }
+}
+
+@media (max-width: 991px){
+    .header{
+        &__logo{
+            width: 235px;
+            margin-left: 20px;
+        }
+        &__official{
+            font-size: 14px;
+        }
+        &__contacts{
+            margin-right: 20px;
+        }
+        &__phone{
+            font-size: 16px;
+        }
+    }
+    .promo{
+        &__header{
+            font-size: 38px;
+            line-height: 38px;
+        }
+        &__subheader{
+            font-size: 22px;
+            line-height: 22px;
+        }
+        &__icon{
+            width: 127px;
+            font-size: 15px;
+        }
+    }
+    .advantages{
+        &__title{
+            font-size: 34px;
+        }
+        &__wrapper{
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+        }
+        &__item{
+            margin-top: 15px;
+            max-width: 300px;
+        }
+        &__subtitle{
+            margin-top: 27px;
+            font-size: 20px;
+        }
+        &__descr{
+            margin-top: 15px;
+            font-size: 19px; 
+        }
+    }
+    .title_left{
+        font-size: 33px;
+        width: 100%;
+    }
+    .consultation__descr{
+        font-size: 21px;
+        width: 100%;
+        br{
+            display: inline;
+        }
+    }
+    .catalog__content {
+        justify-content: space-evenly;
+    }
+
+    .feedback {
+        &__img {
+        height: 150px;
+        padding-left: 20px;
+        }
+        
+        &__descr {
+            font-size: 14px;
+            line-height: 20px;
+        }
+    }
+}
+@media(max-width: 767px) {
+    .consultation{
+        padding: 65px 0 105px 0;
+        &__descr{
+            font-size: 19px;
+        }
+    }
+    .title_left{
+        font-size: 25px;  
+        line-height: 40px;  
+    }
+
+    .catalog {
+        &__tab  {
+            width: 180px;
+        }
+    }
+
+    .feedback {
+        &__img {
+            height: 140px;
+            padding-left: 10px;
+        }
+    }
+
+    .footer {
+        &__info {
+            width: 350px;
+            height: 250px;
+        }
+
+        &__addres {
+            font-size: 17px;
+            line-height: 17px;
+            margin-bottom: 25px;
+        }
+
+        &__phone {
+            margin-bottom: 25px;
+        }
+
+        &__social-item {
+            width: 45px;
+            height: 45px;
+        }
+    }
+}
+@media (max-width: 575px) {
+    .header{
+        &__logo{
+            margin-left: 4px;
+            width: 170px;
+        }
+        &__official{
+            font-size: 10px;
+            span{
+                font-size: 9px;
+            }
+        }
+        &__contacts{
+            margin-right: 4px;
+            a{
+                font-size: 12px;
+            }
+            button{
+                width: 107px;
+                font-size: 9px;
+            }
+        }
+    }
+    .promo{
+        &__wrapper{
+            margin-top: 70px;
+        }
+        &__header{
+                text-align: center;
+                font-size: 32px;
+                line-height: 32px;
+            }
+        &__subheader{
+            text-align: center;
+            font-size: 18px;
+            line-height: 18px;
+        }
+        &__icons{
+            margin-top: 50px;
+            max-width: 312px;
+        }
+        &__icon{
+            width: 104px;
+            font-size: 11px;
+        }
+        .button_main{
+            margin-top: 60px;
+            font-size: 16px;
+        }
+    }
+    .advantages{
+        &__title{
+            font-size: 25px;
+        }
+    }
+    .consultation{
+        padding: 55px 0 90px 0;
+        &__descr{
+            font-size: 17px;
+        }
+    }
+    .title_left{
+        font-size: 22px;
+    }
+
+    .feed-form{
+        margin-top: 60px;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+    .catalog {
+        &__tabs {
+            margin-top: 50px;
+        }
+
+        &__tab {
+            width: 90px;
+            font-size: 10px;
+        }
+    }
+
+    .feedback {
+        &__img {
+            height: 100px;
+        }
+        &__text {
+            margin-left: 25px;
+            padding-right: 23px;
+        }
+        
+        &__descr {
+            font-size: 12px;
+            line-height: 18px;
+        }
+    }
+
+    .footer {
+        &__info {
+            width: 100%;
+            height: 225px;
+        }
+
+        &__social-item {
+            border: none;
+        }
+    }
+}

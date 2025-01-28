@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wdth,wght@0,62.5..100,100..900;1,62.5..100,100..900&display=swap');
+  
+
+@import 'base/variables';
+@import 'blocks/header';
+@import 'blocks/service';
+@import 'blocks/traffic';
+@import 'blocks/quote';
+@import 'blocks/client';
+@import 'blocks/steps';
+@import 'blocks/contacts';
+
+
+  *{
+    font-family: "Noto Sans", serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+    &_traffic {
+      border: 2px dashed rgba(134, 133, 133, 0.3);
+    }
+  }
