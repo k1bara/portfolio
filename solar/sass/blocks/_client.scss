@@ -1,0 +1,72 @@
+.client {
+  max-height: 495px;
+  position: relative;
+  &__title {
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: 700;
+    color: $subtitle-color;
+  }
+  &__img {
+    margin-top: 60px;
+  }
+  &__subtitle {
+    width: 476px;
+    position: absolute;
+    top: 93px;
+    right: 212px;
+    color: $main-color;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+  }
+  &__list {
+    position: absolute;
+    top: 173px;
+    right: 150px;
+    .client__item {
+      list-style-type: none;
+      margin-bottom: 16px;
+      font-size: 14px;
+      color: $main-color;
+      font-weight: 400;
+      line-height: 19px;
+      }
+    .client__item:last-child {
+      margin-bottom: 0;
+    }
+  }
+  &__prev, &__next {
+    position: absolute;
+    cursor: pointer;
+    transform: translate(-276px, 456px);
+  }
+  &__next {
+    transform: translate(-214px, 456px);
+  }
+  &__circle {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: 2px solid $main-color;
+    border-radius: 50%;
+    transform: translate(662px, -90px);
+    cursor: pointer;
+    img {
+      position: absolute;
+      width: 40px;
+      top: 45px;
+      left: 30px;
+    }
+  }
+  &__consultation {
+    cursor: pointer;
+    margin-top: 9px;
+    position: absolute;
+    top: 422px;
+    right: 385px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+  }
+}

@@ -1,0 +1,119 @@
+.contacts {
+  position: relative;
+  color: #fff;
+  background-image: url(../img/bg/footer_bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 510px 600px;
+    column-gap: 90px;
+  }
+  &__request, &__info {
+    margin-top: 70px;
+    &-title {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 33px;
+    }
+  }
+  &__form {
+    position: relative;
+    margin-top: 60px;
+  }
+  &__input {
+    position: relative;
+    margin-bottom: 60px;
+    input {
+      padding: 10px;
+      background: transparent;
+      outline: none;
+      border: none;
+      width: 510px;
+      height: 30px;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 19px;
+      border-bottom: 1px solid #fff;
+    }
+    label {
+      position: absolute;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 19px;
+      top: 0;
+      left: 0;
+    }
+  }
+  &__cover {
+    margin-top: 60px;
+    display: grid;
+    grid-template-rows: minmax(22px, auto);
+    row-gap: 30px;
+  }
+  &__text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+
+  &__button {
+    position: absolute;
+  }
+  &__btn {
+    background: transparent;
+    width: 193px;
+    margin: 0 auto;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 60px 0 0 50px;
+    text-decoration: none;
+    position: absolute;
+      &::before {
+        content: ' ';
+        border: 1px solid #fff;
+        top: 0;
+        left: 0;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        z-index: 1;
+    }
+    &::after {
+      content: url(/icons/Arrow.svg);
+        top: 50px;
+        left: 50px;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        z-index: 2;
+        width: 40px;
+    }
+
+  }
+}
+footer {
+  padding: 150px 0 50px 0;
+  display: grid;
+  grid-template-columns: 221px 182px 167px;
+  justify-content: space-between;
+  .privacy {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+  }
+  .social-media {
+    display: flex;
+    width: 167px;
+    justify-content: space-between;
+  }
+}
